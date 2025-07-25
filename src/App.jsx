@@ -455,7 +455,7 @@ const ResumePage = () => {
 
   const handleDownload = () => {
     // Replace with the actual path to your resume file
-    const resumeUrl = '/public/my-resume.pdf'; // TODO: Update with your resume file path
+    const resumeUrl = '/my-resume.pdf'; // TODO: Update with your resume file path
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.setAttribute('download', 'Prathamesh_Bhutkar_Resume.pdf'); // Corrected name in download filename
@@ -486,7 +486,7 @@ const ResumePage = () => {
       <div className="mt-12 p-6 bg-purple-900 bg-opacity-50 rounded-xl shadow-inner-lg border border-purple-700 text-left">
         <h3 className="text-2xl font-semibold text-purple-300 mb-4 text-center">Resume Preview</h3>
         <img
-          src="/public/my-resume.png"
+          src="/my-resume.png"
           alt="Resume Preview"
           className="w-full h-auto rounded-lg mb-6 border border-purple-600 shadow-md"
           onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/600x800/6A0DAD/FFFFFF?text=Could+not+load+resume+image"; }}
