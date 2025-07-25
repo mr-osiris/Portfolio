@@ -2,7 +2,7 @@
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mr-osiris.github.io/Portfolio",
+  "homepage": "https://mr-osiris.github.io/Portfolio/",
   "dependencies": {
     "@react-spring/web": "^10.0.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,12 +18,12 @@
     "@adobe/css-tools": "^4.3.1"
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "start": "set BROWSER=none&& set WDS_SOCKET_PORT=0&& vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist --repo https://github.com/mr-osiris/Portfolio.git"
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -45,11 +45,11 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.1",
-    "autoprefixer": "^10.0.0",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^6.3.0",
     "jsdom": "^22.1.0",
-    "postcss": "^8.0.0",
-    "tailwindcss": "^3.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
     "vite": "^4.5.9",
     "vitest": "^0.34.6"
   }
