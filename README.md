@@ -1,1 +1,1 @@
-https://prathameshbhutkarportfolio.vercel.app/
+https://prathameshbhutkar.vercel.app/
